@@ -1,0 +1,134 @@
+.mstteam-alert-dislay-login-form p.mstteam-text-content-alert{
+  border-left: 4px solid #72aee6;
+  padding: 12px;
+  margin-left: 0;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+}
+input.mstteam-input {
+  border: none;
+  background-color: #edeff1;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  width: 150px;
+}
+input.mstteam-input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.mstlilo-tab-controls{
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+}
+.mstlilo-tab-controls .mstlilo-tab-control{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+}
+.mstlilo-tab-controls .mstlilo-tab-control.mstlilo-tab-active{
+  border-bottom-color: #ffffff;
+  background: #ffffff;
+}
+.mstlilo-tab-contents{
+  padding: 1px 20px;
+  padding-top: 20px;
+  border: 1px solid #dfdfdf;
+  margin-top: -1px;
+  background: #fff;
+}
+.mstlilo-tab-contents .mstlilo-tab-content{
+  display: none;
+}
+.mstlilo-tab-contents .mstlilo-tab-content.mstlilo-tab-active{
+  display: block;
+}
+
+/*STYLE CHECKBOX*/
+.mstlilo-switch-control input[type=checkbox] {
+  display: none;
+}
+
+.mstlilo-switch-control input[type=checkbox] + label {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.mstlilo-switch-control input[type=checkbox] + label:after, input[type=checkbox] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#mstlilo-switch:checked + label.green,
+#mstlilo-switch-1:checked + label.green,
+#mstlilo-switch-2:checked + label.green,
+#mstlilo-switch-3:checked + label.green,
+#mstlilo-switch-4:checked + label.green,
+#mstlilo-switch-5:checked + label.green,
+#mstlilo-switch-6:checked + label.green,
+#mstlilo-switch-7:checked + label.green{
+  background: #AEDCAE;
+}
+#mstlilo-switch:checked + label.green:after,
+#mstlilo-switch-1:checked + label.green:after,
+#mstlilo-switch-2:checked + label.green:after,
+#mstlilo-switch-3:checked + label.green:after,
+#mstlilo-switch-4:checked + label.green:after,
+#mstlilo-switch-5:checked + label.green:after,
+#mstlilo-switch-6:checked + label.green:after,
+#mstlilo-switch-7:checked + label.green:after{
+  background: #5CB85C;
+}
+#mstlilo-switch:checked + label:after,
+#mstlilo-switch-1:checked + label:after,
+#mstlilo-switch-2:checked + label:after,
+#mstlilo-switch-3:checked + label:after,
+#mstlilo-switch-4:checked + label:after,
+#mstlilo-switch-5:checked + label:after,
+#mstlilo-switch-6:checked + label:after,
+#mstlilo-switch-7:checked + label:after{
+  left: calc(100% - 18px);
+}
+#mstlilo-switch + label,
+#mstlilo-switch-1 + label,
+#mstlilo-switch-2 + label,
+#mstlilo-switch-3 + label,
+#mstlilo-switch-4 + label,
+#mstlilo-switch-5 + label,
+#mstlilo-switch-6 + label,
+#mstlilo-switch-7 + label{
+  background: #ddd;
+  border-radius: 20px;
+}
+#mstlilo-switch + label:after,
+#mstlilo-switch-1 + label:after,
+#mstlilo-switch-2 + label:after,
+#mstlilo-switch-3 + label:after,
+#mstlilo-switch-4 + label:after,
+#mstlilo-switch-5 + label:after,
+#mstlilo-switch-6 + label:after,
+#mstlilo-switch-7 + label:after{
+  background: #fff;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+}
